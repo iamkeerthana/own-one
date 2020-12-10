@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  margin: 0rem;
+  color: var(--purple);
+}
+main {
+    text-align: center;
+}
+:root {
+    --primary-color:#9d0191;
+    --green: #16a596;
+    --purple: #892cdc;
+}
+h2 {
+   color: var(--primary-color);
+}
+li {
+    color: var(--green);
+    font-size: large;
+}
+p {
+    color: var(--primary-color);
+    font-size: large;
+}
+span {
+    color: var(--green);
+}
+   

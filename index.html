@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Index Page</h1>
+  <main>
+    <h2>1. About react app</h2>
+     <ul>
+        <li>Files in sandbox</li>
+        <li>How they are connected</li>
+        <li>index.html << index.js << style.css</li>
+        <li>above point indicates the flow of connection</li>
+     </ul>
+    <h2>2. JSX component</h2>
+      <ul>
+        <li>starting with JSX component</li>
+        <li>make a name component and add var to see how it changes</li>
+        <li>add styling to it,make the font color to green</li>
+      </ul>
+    <h2>3. Console onClick</h2>
+      <ul>
+        <li>add button tag, say 'Translate'</li>
+        <li>put translated message in console.log when this button is clicked</li>
+        <li>* We don't need to add addEventListner() in React.js *</li>
+      </ul>
+    <h2>4. Counter in view</h2>
+      <ul>
+        <li>use useState to update the state in React</li>
+        <li>show the updated state in console.log</li>
+        <li>now,you can see your counter in view</li>
+      </ul>
+    <h2>5. Render cycle explaination</h2>
+      <ul>
+        <li>view --> event --> state --> --->render()</li>
+      </ul>
+    <h2>6. Handling data from input element</h2>
+      <ul>
+        <li>use an input element and put onChange event</li>
+        <li>console the value which user is typing</li>
+        <li>update the value using useState (even this is consuming in view)</li>
+        <li>now, see this value in view</li>
+      </ul>
+    <h2>7. Show meaning</h2>
+      <ul>
+        <li>creat an object to add all emoji data at one place</li>
+        <li>get data based on key, show that data in view using useState</li>
+        <li>* if (inputEmoji in emojiDictionary) *</li>
+      </ul>
+    <h2>8. Handling list of data</h2>
+
+    <h2>9. Convert an object to array</h2>
+      <ul>
+        <li>take the object created above and get an array of keys</li>
+        <li>put list in react</li>
+        <li>show the emojis that we know</li>
+      </ul>
+    <h2>10. put a click handler on list item</h2>
+      <ul>
+        <li>onClick for any item, it show which item was clicked from the list</li>
+        <li>syntax: onClick={() => emojiClickHandler(emoji)}</li>
+      </ul>
+    <h2>11. Set state</h2>
+      <ul>
+        <li>onClick get the inputEmoji from the list and set the state again for setMeaning</li>
+      </ul>
+  </main>
+  <footer>
+      <h1>Assignment by our own</h1>
+      <p>Above all about live app to get <span>Mark eight</span> we should do same app but we should change only emojis</p>
+      <p>There given good books no like that related to music, food, travel, ect.. we should do to get <span>Mark nine</span></p>
+      <a href="https://khjxk.csb.app/">book app</a>
+  </footer>
+</body>
+</html>
