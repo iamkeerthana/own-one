@@ -21,6 +21,7 @@ li {
 p {
     color: var(--primary-color);
     font-size: large;
+    margin: 1rem;
 }
 span {
     color: var(--green);
